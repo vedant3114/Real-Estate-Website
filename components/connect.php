@@ -1,7 +1,7 @@
 <?php
 
    $db_name = 'mysql:host=localhost;dbname=home_db';
-   $db_user_name = 'https://app.netlify.com/sites/avurealestate/configuration/general';
+   $db_user_name = 'root';
    $db_user_pass = '';
 
    $conn = new PDO($db_name, $db_user_name, $db_user_pass);
